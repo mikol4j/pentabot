@@ -113,11 +113,13 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\MessagesController.cs" />
     <Compile Include="Dialogs\GreetingDialog.cs" />
+    <Compile Include="Dialogs\LUISDialog.cs" />
     <Compile Include="Dialogs\PentaRelaxDialog.cs" />
-    <Compile Include="Dialogs\RootDialog.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Infrastructure\Services\IPentaKOPService.cs" />
+    <Compile Include="Infrastructure\Services\PentaKOPService.cs" />
     <Compile Include="Models\RoomReservation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

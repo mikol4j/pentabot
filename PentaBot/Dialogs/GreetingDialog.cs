@@ -15,6 +15,7 @@ namespace PentaBot.Dialogs
         public async Task StartAsync(IDialogContext ctx)
         {
 
+            await ctx.PostAsync("Hi I'm PentaBot");
             await Respond(ctx);
             ctx.Wait(MessageReceivedAsync);
 
@@ -38,7 +39,7 @@ namespace PentaBot.Dialogs
         private async Task MessageReceivedAsync(IDialogContext ctx, IAwaitable<IMessageActivity> argument)
         {
             var message = await argument;
-            var userName = String.Empty;
+            string userName;
             var getName = false;
             ctx.UserData.TryGetValue<string>("Name", out userName);
             ctx.UserData.TryGetValue<bool>("Getname", out getName);
@@ -47,7 +48,7 @@ namespace PentaBot.Dialogs
                 ctx.UserData.SetValue<string>("Name", userName);
                 ctx.UserData.SetValue<bool>("Getname", false);
             }
-            await Respond(ctx);
+            //await Respond(ctx);
             ctx.Done(message);
 
             ////var activity = await result as Activity;

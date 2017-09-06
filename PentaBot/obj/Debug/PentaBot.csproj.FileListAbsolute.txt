@@ -35,6 +35,6 @@ c:\users\mjankows\documents\visual studio 2015\Projects\PentaBot\PentaBot\bin\fr
 c:\users\mjankows\documents\visual studio 2015\Projects\PentaBot\PentaBot\bin\ja\Microsoft.Bot.Builder.resources.dll
 c:\users\mjankows\documents\visual studio 2015\Projects\PentaBot\PentaBot\bin\ru\Microsoft.Bot.Builder.resources.dll
 c:\users\mjankows\documents\visual studio 2015\Projects\PentaBot\PentaBot\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
-c:\users\mjankows\documents\visual studio 2015\Projects\PentaBot\PentaBot\obj\Debug\PentaBot.csprojResolveAssemblyReference.cache
 c:\users\mjankows\documents\visual studio 2015\Projects\PentaBot\PentaBot\obj\Debug\Bot Application.dll
 c:\users\mjankows\documents\visual studio 2015\Projects\PentaBot\PentaBot\obj\Debug\Bot Application.pdb
+c:\users\mjankows\documents\visual studio 2015\Projects\PentaBot\PentaBot\obj\Debug\PentaBot.csprojResolveAssemblyReference.cache
