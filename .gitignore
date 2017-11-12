@@ -1,1 +1,6 @@
 /PentaBot/Web.config
+/packeges
+/PentaBot/bin
+/PentaBot/obj
+/PentaBot/Web.Debug.config
+/PentaBot/Web.Release.config
