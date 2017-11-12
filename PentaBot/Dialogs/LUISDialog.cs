@@ -12,7 +12,7 @@ using System.Web;
 
 namespace PentaBot.Dialogs
 {
-    [LuisModel("17c14ef1-e684-4494-aa94-4fb4d7e52bc7", "1bee2d14828c4a4c80078d5e29f7b310")]
+    [LuisModel("", "")]
     [Serializable]
     public class LUISDialog : LuisDialog<object>
     {
