@@ -6,13 +6,14 @@ using System.Web.Http;
 using Microsoft.Bot.Builder.Dialogs;
 using Microsoft.Bot.Connector;
 using PentaBot.Dialogs;
-using PentaBot.Models;
 using System.Collections.Generic;
 using System.Text;
 using System.IO;
 using System.Web;
 using System.Collections.Specialized;
 using PentaBot.Infrastructure.Services;
+using Microsoft.Bot.Builder.Dialogs.Internals;
+using Autofac;
 
 namespace PentaBot
 {
@@ -28,23 +29,18 @@ namespace PentaBot
 
             if (activity.Type == ActivityTypes.Message)
             {
-                //await Conversation.SendAsync(activity, () =>PentaRelaxDialog.dialog);
-                await Conversation.SendAsync(activity, MakeLuisDialog);
+                await Conversation.SendAsync(activity, () => new LUISDialog());
             }
             else
             {
-                HandleSystemMessage(activity);
+                await HandleSystemMessage(activity);
             }
             var response = Request.CreateResponse(HttpStatusCode.OK);
             return response;
         }
 
-        private IDialog<RoomReservation> MakeLuisDialog()
-        {
-            return Chain.From(() => new LUISDialog(RoomReservation.BuildForm));
-        }
 
-        private Microsoft.Bot.Connector.Activity HandleSystemMessage(Microsoft.Bot.Connector.Activity message)
+        private static async Task HandleSystemMessage(Microsoft.Bot.Connector.Activity message)
         {
             if (message.Type == ActivityTypes.DeleteUserData)
             {
@@ -53,9 +49,20 @@ namespace PentaBot
             }
             else if (message.Type == ActivityTypes.ConversationUpdate)
             {
-                // Handle conversation state changes, like members being added and removed
-                // Use Activity.MembersAdded and Activity.MembersRemoved and Activity.Action for info
-                // Not available in all channels
+                using (var scope = DialogModule.BeginLifetimeScope(Conversation.Container, message))
+                {
+                    var client = scope.Resolve<IConnectorClient>();
+
+                        var rpl = message.CreateReply();
+                        foreach (var newMember in message.MembersAdded)
+                        {
+                            if (CheckIfMemberIsBot(message, newMember)) continue;
+
+                        rpl.Text = $"Hi there! Welcome to the PentaBOT. How can I help you?";
+                            await client.Conversations.ReplyToActivityAsync(rpl);
+                        }
+                    
+                }
             }
             else if (message.Type == ActivityTypes.ContactRelationUpdate)
             {
@@ -70,7 +77,10 @@ namespace PentaBot
             {
             }
 
-            return null;
+        }
+        private static bool CheckIfMemberIsBot(IActivity activity, ChannelAccount newMember)
+        {
+            return newMember.Id == activity.Recipient.Id;
         }
     }
 }

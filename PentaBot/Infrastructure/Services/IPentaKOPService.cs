@@ -8,6 +8,6 @@ namespace PentaBot.Infrastructure.Services
 {
     public interface IPentaKOPService
     {
-        Task AddActivity();
+        Task AddActivity(string comment);
     }
 }

@@ -38,3 +38,84 @@ c:\users\mjankows\documents\visual studio 2015\Projects\PentaBot\PentaBot\bin\zh
 c:\users\mjankows\documents\visual studio 2015\Projects\PentaBot\PentaBot\obj\Debug\Bot Application.dll
 c:\users\mjankows\documents\visual studio 2015\Projects\PentaBot\PentaBot\obj\Debug\Bot Application.pdb
 c:\users\mjankows\documents\visual studio 2015\Projects\PentaBot\PentaBot\obj\Debug\PentaBot.csprojResolveAssemblyReference.cache
+C:\Users\mjankows\Desktop\secur\PentaBot\bin\Bot Application.dll.config
+C:\Users\mjankows\Desktop\secur\PentaBot\bin\Bot Application.dll
+C:\Users\mjankows\Desktop\secur\PentaBot\bin\Bot Application.pdb
+C:\Users\mjankows\Desktop\secur\PentaBot\bin\Autofac.dll
+C:\Users\mjankows\Desktop\secur\PentaBot\bin\Chronic.dll
+C:\Users\mjankows\Desktop\secur\PentaBot\bin\Microsoft.Bot.Builder.Autofac.dll
+C:\Users\mjankows\Desktop\secur\PentaBot\bin\Microsoft.Bot.Builder.dll
+C:\Users\mjankows\Desktop\secur\PentaBot\bin\Microsoft.Bot.Connector.dll
+C:\Users\mjankows\Desktop\secur\PentaBot\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+C:\Users\mjankows\Desktop\secur\PentaBot\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Users\mjankows\Desktop\secur\PentaBot\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\mjankows\Desktop\secur\PentaBot\bin\Newtonsoft.Json.dll
+C:\Users\mjankows\Desktop\secur\PentaBot\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\mjankows\Desktop\secur\PentaBot\bin\System.Net.Http.Formatting.dll
+C:\Users\mjankows\Desktop\secur\PentaBot\bin\System.Web.Http.dll
+C:\Users\mjankows\Desktop\secur\PentaBot\bin\System.Web.Http.WebHost.dll
+C:\Users\mjankows\Desktop\secur\PentaBot\bin\Autofac.xml
+C:\Users\mjankows\Desktop\secur\PentaBot\bin\Microsoft.Bot.Builder.xml
+C:\Users\mjankows\Desktop\secur\PentaBot\bin\Microsoft.Bot.Builder.Autofac.xml
+C:\Users\mjankows\Desktop\secur\PentaBot\bin\Microsoft.Bot.Connector.xml
+C:\Users\mjankows\Desktop\secur\PentaBot\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+C:\Users\mjankows\Desktop\secur\PentaBot\bin\Microsoft.WindowsAzure.Configuration.xml
+C:\Users\mjankows\Desktop\secur\PentaBot\bin\Newtonsoft.Json.xml
+C:\Users\mjankows\Desktop\secur\PentaBot\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\mjankows\Desktop\secur\PentaBot\bin\System.Net.Http.Formatting.xml
+C:\Users\mjankows\Desktop\secur\PentaBot\bin\System.Web.Http.xml
+C:\Users\mjankows\Desktop\secur\PentaBot\bin\System.Web.Http.WebHost.xml
+C:\Users\mjankows\Desktop\secur\PentaBot\bin\ar\Microsoft.Bot.Builder.resources.dll
+C:\Users\mjankows\Desktop\secur\PentaBot\bin\cs\Microsoft.Bot.Builder.resources.dll
+C:\Users\mjankows\Desktop\secur\PentaBot\bin\de-dE\Microsoft.Bot.Builder.resources.dll
+C:\Users\mjankows\Desktop\secur\PentaBot\bin\en\Microsoft.Bot.Builder.resources.dll
+C:\Users\mjankows\Desktop\secur\PentaBot\bin\es\Microsoft.Bot.Builder.resources.dll
+C:\Users\mjankows\Desktop\secur\PentaBot\bin\fa\Microsoft.Bot.Builder.resources.dll
+C:\Users\mjankows\Desktop\secur\PentaBot\bin\fr\Microsoft.Bot.Builder.resources.dll
+C:\Users\mjankows\Desktop\secur\PentaBot\bin\ja\Microsoft.Bot.Builder.resources.dll
+C:\Users\mjankows\Desktop\secur\PentaBot\bin\ru\Microsoft.Bot.Builder.resources.dll
+C:\Users\mjankows\Desktop\secur\PentaBot\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+C:\Users\mjankows\Desktop\secur\PentaBot\obj\Debug\PentaBot.csprojResolveAssemblyReference.cache
+C:\Users\mjankows\Desktop\secur\PentaBot\obj\Debug\PentaBot.csproj.CoreCompileInputs.cache
+C:\Users\mjankows\Desktop\secur\PentaBot\obj\Debug\Bot Application.dll
+C:\Users\mjankows\Desktop\secur\PentaBot\obj\Debug\Bot Application.pdb
+C:\Users\mjankows\Desktop\pentabot\pentabot\PentaBot\obj\Debug\PentaBot.csproj.CoreCompileInputs.cache
+C:\Users\mjankows\Desktop\pentabot\pentabot\PentaBot\obj\Debug\Bot Application.dll
+C:\Users\mjankows\Desktop\pentabot\pentabot\PentaBot\obj\Debug\Bot Application.pdb
+C:\Users\mjankows\Desktop\pentabot\pentabot\PentaBot\bin\Bot Application.dll.config
+C:\Users\mjankows\Desktop\pentabot\pentabot\PentaBot\bin\Bot Application.dll
+C:\Users\mjankows\Desktop\pentabot\pentabot\PentaBot\bin\Bot Application.pdb
+C:\Users\mjankows\Desktop\pentabot\pentabot\PentaBot\bin\Autofac.dll
+C:\Users\mjankows\Desktop\pentabot\pentabot\PentaBot\bin\Chronic.dll
+C:\Users\mjankows\Desktop\pentabot\pentabot\PentaBot\bin\Microsoft.Bot.Builder.Autofac.dll
+C:\Users\mjankows\Desktop\pentabot\pentabot\PentaBot\bin\Microsoft.Bot.Builder.dll
+C:\Users\mjankows\Desktop\pentabot\pentabot\PentaBot\bin\Microsoft.Bot.Connector.dll
+C:\Users\mjankows\Desktop\pentabot\pentabot\PentaBot\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+C:\Users\mjankows\Desktop\pentabot\pentabot\PentaBot\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Users\mjankows\Desktop\pentabot\pentabot\PentaBot\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\mjankows\Desktop\pentabot\pentabot\PentaBot\bin\Newtonsoft.Json.dll
+C:\Users\mjankows\Desktop\pentabot\pentabot\PentaBot\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\mjankows\Desktop\pentabot\pentabot\PentaBot\bin\System.Net.Http.Formatting.dll
+C:\Users\mjankows\Desktop\pentabot\pentabot\PentaBot\bin\System.Web.Http.dll
+C:\Users\mjankows\Desktop\pentabot\pentabot\PentaBot\bin\System.Web.Http.WebHost.dll
+C:\Users\mjankows\Desktop\pentabot\pentabot\PentaBot\bin\Autofac.xml
+C:\Users\mjankows\Desktop\pentabot\pentabot\PentaBot\bin\Microsoft.Bot.Builder.xml
+C:\Users\mjankows\Desktop\pentabot\pentabot\PentaBot\bin\Microsoft.Bot.Builder.Autofac.xml
+C:\Users\mjankows\Desktop\pentabot\pentabot\PentaBot\bin\Microsoft.Bot.Connector.xml
+C:\Users\mjankows\Desktop\pentabot\pentabot\PentaBot\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+C:\Users\mjankows\Desktop\pentabot\pentabot\PentaBot\bin\Microsoft.WindowsAzure.Configuration.xml
+C:\Users\mjankows\Desktop\pentabot\pentabot\PentaBot\bin\Newtonsoft.Json.xml
+C:\Users\mjankows\Desktop\pentabot\pentabot\PentaBot\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\mjankows\Desktop\pentabot\pentabot\PentaBot\bin\System.Net.Http.Formatting.xml
+C:\Users\mjankows\Desktop\pentabot\pentabot\PentaBot\bin\System.Web.Http.xml
+C:\Users\mjankows\Desktop\pentabot\pentabot\PentaBot\bin\System.Web.Http.WebHost.xml
+C:\Users\mjankows\Desktop\pentabot\pentabot\PentaBot\bin\ar\Microsoft.Bot.Builder.resources.dll
+C:\Users\mjankows\Desktop\pentabot\pentabot\PentaBot\bin\cs\Microsoft.Bot.Builder.resources.dll
+C:\Users\mjankows\Desktop\pentabot\pentabot\PentaBot\bin\de-dE\Microsoft.Bot.Builder.resources.dll
+C:\Users\mjankows\Desktop\pentabot\pentabot\PentaBot\bin\en\Microsoft.Bot.Builder.resources.dll
+C:\Users\mjankows\Desktop\pentabot\pentabot\PentaBot\bin\es\Microsoft.Bot.Builder.resources.dll
+C:\Users\mjankows\Desktop\pentabot\pentabot\PentaBot\bin\fa\Microsoft.Bot.Builder.resources.dll
+C:\Users\mjankows\Desktop\pentabot\pentabot\PentaBot\bin\fr\Microsoft.Bot.Builder.resources.dll
+C:\Users\mjankows\Desktop\pentabot\pentabot\PentaBot\bin\ja\Microsoft.Bot.Builder.resources.dll
+C:\Users\mjankows\Desktop\pentabot\pentabot\PentaBot\bin\ru\Microsoft.Bot.Builder.resources.dll
+C:\Users\mjankows\Desktop\pentabot\pentabot\PentaBot\bin\zh-hans\Microsoft.Bot.Builder.resources.dll

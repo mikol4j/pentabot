@@ -11,7 +11,7 @@ namespace PentaBot.Infrastructure.Services
     public class PentaKOPService : IPentaKOPService
     {
         private static readonly HttpClient client = new HttpClient();
-        public async Task AddActivity()
+        public async Task AddActivity(string comment)
         {
             var loginValues = new Dictionary<string, string>
                 {
@@ -26,7 +26,8 @@ namespace PentaBot.Infrastructure.Services
                    { "k2e2", ConfigurationManager.AppSettings["k2e2"].ToString() },
                    { "k3e2", ConfigurationManager.AppSettings["k3e2"].ToString() },
                    { "k4e2", ConfigurationManager.AppSettings["k4e2"].ToString() },
-                   { "k5e2", ConfigurationManager.AppSettings["k5e2"].ToString() },
+                   //{ "k5e2", ConfigurationManager.AppSettings["k5e2"].ToString() },
+                   { "k5e2", comment },
                    { "k7e2", ConfigurationManager.AppSettings["k7e2"].ToString() },
                    { "lastId", ConfigurationManager.AppSettings["lastId"].ToString() }
                 };
